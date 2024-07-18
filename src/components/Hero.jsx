@@ -48,7 +48,7 @@ function Hero() {
             </p>
           </div>
         </div>
-        <div className="hidden grid-cols-1 gap-6 md:mt-5 md:grid md:grid-cols-2 lg:mt-[20px] lg:grid-cols-4 lg:grid-rows-1">
+        {/* <div className="hidden grid-cols-1 gap-6 md:mt-5 md:grid md:grid-cols-2 lg:mt-[20px] lg:grid-cols-4 lg:grid-rows-1">
           <img
             src={bag}
             alt="bag"
@@ -73,7 +73,7 @@ function Hero() {
             className="mr-10 h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom sm:mr-28 md:mr-0 md:h-[300px] md:w-[380px] lg:z-10 lg:col-span-2 lg:h-[200px] lg:w-[250px]"
             loading="lazy"
           />
-        </div>
+        </div> */}
       </motion.div>
     </section>
   );
