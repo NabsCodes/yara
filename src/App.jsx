@@ -5,7 +5,7 @@ import ThemeToggle from "./components/ThemeToggle";
 function App() {
   return (
     <>
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
