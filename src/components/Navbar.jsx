@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full bg-[#dbf0ff] bg-opacity-[0.9] transition-all duration-300 ease-in-out dark:bg-[#2a3d5f] dark:bg-opacity-[0.9]">
+    <header className="z-50 w-full bg-[#dbf0ff] bg-opacity-[0.9] transition-all duration-300 ease-in-out dark:bg-[#2a3d5f] dark:bg-opacity-[0.9]">
       <motion.nav
         initial={{ opacity: 0, y: 30 }}
         whileInView={{
