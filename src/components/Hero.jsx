@@ -35,7 +35,7 @@ function Hero() {
             WooCommerce is a customizable, open-source eCommerce platform built
             on WordPress. Get started quickly and make your way.
           </p>
-          <div className="flex w-[460px] flex-col items-start justify-between gap-y-1 md:flex-row md:items-center">
+          <div className="flex w-full flex-col items-start justify-between gap-y-1 md:flex-row md:items-center lg:w-[460px]">
             <button className="flex items-center justify-center gap-2.5 rounded-[30px] bg-[#7854f7] px-[30px] py-2.5 text-base font-normal text-white transition-all duration-200 ease-in-out hover:bg-[#7854f7]/80">
               Start a New Store
             </button>
