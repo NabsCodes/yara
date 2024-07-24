@@ -55,7 +55,10 @@ const Navbar = () => {
           <span className="cursor-pointer text-[16px] font-normal text-[#444444] transition-all duration-300 ease-in-out hover:scale-105 hover:text-[#7854F7] dark:text-gray-200">
             Log in
           </span>
-          <button className="cursor-pointer rounded-[20px] bg-[#7854F7] px-[20px] py-1.5 text-[16px] font-bold text-white transition-all duration-300 ease-in-out hover:bg-[#9f77ff] lg:px-[30px] lg:py-2.5">
+          <button
+            className="cursor-pointer rounded-[20px] bg-[#7854F7] px-[20px] py-1.5 text-[16px] font-bold text-white transition-all duration-300 ease-in-out hover:bg-[#9f77ff] lg:px-[30px] lg:py-2.5"
+            aria-label="Get Started"
+          >
             Get Started
           </button>
         </div>
@@ -65,6 +68,7 @@ const Navbar = () => {
         {isMenuOpen && (
           <button
             className="fixed inset-0 z-10 bg-black bg-opacity-30"
+            aria-label="Close Menu"
             onClick={handleNav} // Optional: Close the menu when clicking on the overlay
           ></button>
         )}
@@ -101,7 +105,10 @@ const Navbar = () => {
             <span className="mt-2 cursor-pointer text-[16px] font-semibold text-[#444444] transition-all duration-300 ease-in-out hover:scale-105 hover:text-[#7854F7] dark:text-gray-200">
               Log in
             </span>
-            <button className="w-full cursor-pointer rounded bg-[#7854F7] px-[30px] py-2.5 text-[16px] font-bold text-white transition-all duration-300 ease-in-out hover:bg-[#9f77ff]">
+            <button
+              className="w-full cursor-pointer rounded bg-[#7854F7] px-[30px] py-2.5 text-[16px] font-bold text-white transition-all duration-300 ease-in-out hover:bg-[#9f77ff]"
+              aria-label="Get Started"
+            >
               Get Started
             </button>
           </div>

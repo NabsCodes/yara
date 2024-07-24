@@ -84,7 +84,10 @@ function Documentation() {
               client, or simply ace a single product to a WordPress site--your
               store, your way.
             </p>
-            <button className="w-[270px] text-nowrap rounded-[30px] bg-[#70c217] px-[30px] py-2.5 text-base font-semibold text-white">
+            <button
+              className="w-[270px] text-nowrap rounded-[30px] bg-[#70c217] px-[30px] py-2.5 text-base font-semibold text-white"
+              aria-label="Read the Documentation"
+            >
               Read the Documentation
             </button>
           </div>
@@ -122,7 +125,10 @@ function Documentation() {
               wealth or online resources are frequently cited as reasons our
               users love it. There are 80+ meetups worldwide!
             </p>
-            <button className="ml-auto w-[270px] text-nowrap rounded-[30px] bg-[#70c217] px-[30px] py-2.5 text-base font-semibold text-white md:ml-0">
+            <button
+              className="ml-auto w-[270px] text-nowrap rounded-[30px] bg-[#70c217] px-[30px] py-2.5 text-base font-semibold text-white md:ml-0"
+              aria-label="Read the Documentation"
+            >
               Read the Documentation
             </button>
           </div>
