@@ -62,7 +62,11 @@ const Navbar = () => {
             Get Started
           </button>
         </div>
-        <button onClick={handleNav} className="block md:hidden">
+        <button
+          onClick={handleNav}
+          className="block md:hidden"
+          aria-label="Open Menu"
+        >
           {!isMenuOpen && <MenuIcon />}
         </button>
         {isMenuOpen && (
