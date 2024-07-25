@@ -49,7 +49,7 @@ function Documentation() {
         />
       </motion.svg>
 
-      <div className="z-10 flex flex-col items-center justify-center gap-[-50px]">
+      <div className="z-10 mx-auto flex max-w-[1240px] flex-col items-center justify-center gap-[-50px]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{
