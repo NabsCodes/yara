@@ -53,24 +53,28 @@ function Hero() {
             src={bag}
             srcSet={`${bag} 1x, ${bag} 2x`}
             alt="bag"
+            loading="lazy"
             className="order-2 h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-[380px] lg:z-10 lg:order-last lg:col-span-4 lg:mt-[-4rem] lg:h-[200px] lg:w-[250px]"
           />
           <img
             src={card}
             srcSet={`${card} 1x, ${card} 2x`}
             alt="card"
+            loading="lazy"
             className="h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-[380px] lg:z-10 lg:col-span-4 lg:h-[200px] lg:w-[250px] lg:translate-x-0"
           />
           <img
             src={shoe}
             srcSet={`${shoe} 1x, ${shoe} 2x`}
             alt="shoe"
+            loading="lazy"
             className="order-2 h-[322px] w-[380px] justify-self-center object-cover shadow-custom md:h-[300px] md:w-[380px] md:rounded-[25px] lg:col-span-2 lg:ml-[7rem] lg:mt-[-4rem] lg:h-[322px] lg:w-[380px] lg:rounded-none"
           />
           <img
             src={card2}
             srcSet={`${card2} 1x, ${card2} 2x`}
             alt="card2"
+            loading="lazy"
             className="mr-10 h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom sm:mr-28 md:mr-0 md:h-[300px] md:w-[380px] lg:z-10 lg:col-span-2 lg:h-[200px] lg:w-[250px]"
           />
         </div>
