@@ -51,7 +51,7 @@ function Info() {
         Your eCommerce made simple
       </motion.h1>
       <div className="grid grid-cols-1 sm:gap-x-3 md:gap-y-3 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-5">
-        {data.map((d, i) => (
+        {/* {data.map((d, i) => (
           <InfoCard
             key={i}
             title={d.title}
@@ -66,7 +66,7 @@ function Info() {
                   : "lg:mt-[-7rem]"
             }`}
           />
-        ))}
+        ))} */}
       </div>
     </section>
   );
