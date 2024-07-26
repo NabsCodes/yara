@@ -71,6 +71,7 @@ function Documentation() {
             src={img1}
             alt="img1"
             className="top-10 h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow lg:h-[500px] lg:w-[400px]"
+            loading="lazy"
           />
           <div className="my-auto flex flex-col justify-center gap-5">
             <h1 className="text-2xl font-bold leading-[38px] text-white lg:text-[30px]">
@@ -110,8 +111,8 @@ function Documentation() {
         >
           <img
             src={img2}
-            srcSet={`${img2} 1x, ${img2} 2x`}
             alt="img2"
+            loading="lazy"
             className="h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow md:order-2 md:mt-[-20px] lg:mt-[-40px] lg:h-[500px] lg:w-[400px]"
           />
           <div className="my-auto flex flex-col justify-center gap-5">
