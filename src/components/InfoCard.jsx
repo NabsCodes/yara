@@ -21,7 +21,6 @@ function InfoCard({ title, description, img, footer, className }) {
     >
       <img
         src={img}
-        srcSet={`${img} 1x, ${img} 2x`}
         alt="hero"
         className="mt-6 h-[200px] w-full rounded-[20px] object-cover md:h-[300px] lg:h-[280px] lg:w-[400px]"
       />

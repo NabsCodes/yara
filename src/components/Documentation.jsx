@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import img1 from "../assets/pexels-lisa-fotios-1546329.webp";
-import img2 from "../assets/pexels-thirdman-5256523.webp";
+import img1 from "../assets/pexels-lisa-fotios-1546329.jpg";
+import img2 from "../assets/pexels-thirdman-5256523.jpg";
 
 function Documentation() {
   return (
@@ -69,7 +69,6 @@ function Documentation() {
         >
           <img
             src={img1}
-            srcSet={`${img1} 1x, ${img1} 2x`}
             alt="img1"
             className="top-10 h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow lg:h-[500px] lg:w-[400px]"
           />

@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bag from "../assets/pexels-angela-roma-7319328.webp";
-import card from "../assets/pexels-anna-shvets-4482900.webp";
-import shoe from "../assets/pexels-melvin-buezo-2529148.webp";
-import card2 from "../assets/pexels-negative-space-34577.webp";
+import bag from "../assets/pexels-angela-roma-7319328.jpg";
+import card from "../assets/pexels-anna-shvets-4482900.jpg";
+import shoe from "../assets/pexels-melvin-buezo-2529148.jpg";
+import card2 from "../assets/pexels-negative-space-34577.jpg";
 
 function Hero() {
   return (
@@ -49,34 +49,30 @@ function Hero() {
           </div>
         </div>
         <div className="hidden grid-cols-1 gap-6 md:mt-5 md:grid md:grid-cols-2 lg:mt-[20px] lg:grid-cols-4 lg:grid-rows-1">
-          {/* <img
+          <img
             src={bag}
-            srcSet={`${bag} 1x, ${bag} 2x`}
             alt="bag"
             loading="lazy"
             className="order-2 h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-[380px] lg:z-10 lg:order-last lg:col-span-4 lg:mt-[-4rem] lg:h-[200px] lg:w-[250px]"
           />
           <img
             src={card}
-            srcSet={`${card} 1x, ${card} 2x`}
             alt="card"
             loading="lazy"
             className="h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-[380px] lg:z-10 lg:col-span-4 lg:h-[200px] lg:w-[250px] lg:translate-x-0"
           />
           <img
             src={shoe}
-            srcSet={`${shoe} 1x, ${shoe} 2x`}
             alt="shoe"
             loading="lazy"
             className="order-2 h-[322px] w-[380px] justify-self-center object-cover shadow-custom md:h-[300px] md:w-[380px] md:rounded-[25px] lg:col-span-2 lg:ml-[7rem] lg:mt-[-4rem] lg:h-[322px] lg:w-[380px] lg:rounded-none"
           />
           <img
             src={card2}
-            srcSet={`${card2} 1x, ${card2} 2x`}
             alt="card2"
             loading="lazy"
             className="mr-10 h-[200px] w-[250px] justify-self-center rounded-[25px] object-cover shadow-custom sm:mr-28 md:mr-0 md:h-[300px] md:w-[380px] lg:z-10 lg:col-span-2 lg:h-[200px] lg:w-[250px]"
-          /> */}
+          />
         </div>
       </motion.div>
     </section>
