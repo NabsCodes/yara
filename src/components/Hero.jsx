@@ -1,35 +1,30 @@
 import React from "react";
 import { motion } from "framer-motion";
-
-let bag =
-  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-angela-roma-7319328";
-let card =
-  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-anna-shvets-4482900";
-let shoe =
-  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-melvin-buezo-2529148";
-let card2 =
-  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-negative-space-34577";
+import bag from "../assets/pexels-angela-roma-7319328.webp";
+import card from "../assets/pexels-anna-shvets-4482900.webp";
+import shoe from "../assets/pexels-melvin-buezo-2529148.webp";
+import card2 from "../assets/pexels-negative-space-34577.webp";
 
 function Hero() {
   return (
     <section className="mx-auto max-w-[1240px] px-4 pt-24 lg:mb-[145px]">
       <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-          transition: {
-            type: "spring",
-            damping: 100,
-            stiffness: 300,
-            mass: 1,
-            delay: 0.5,
-          },
-        }}
-        viewport={{
-          amount: "some",
-          once: true,
-        }}
+        // initial={{ opacity: 0, y: 30 }}
+        // whileInView={{
+        //   opacity: 1,
+        //   y: 0,
+        //   transition: {
+        //     type: "spring",
+        //     damping: 100,
+        //     stiffness: 300,
+        //     mass: 1,
+        //     delay: 0.5,
+        //   },
+        // }}
+        // viewport={{
+        //   amount: "some",
+        //   once: true,
+        // }}
         className="flex flex-col gap-6 lg:flex-row lg:gap-16"
       >
         <div className="mt-3 flex flex-col gap-3 md:gap-[30px] lg:mt-[150px] lg:max-w-[502px]">
@@ -55,37 +50,25 @@ function Hero() {
         </div>
         <div className="hidden grid-cols-1 gap-6 md:mt-5 md:grid md:grid-cols-2 lg:mt-[20px] lg:grid-cols-4 lg:grid-rows-1">
           <img
-            srcSet={`${bag}?tr=w-250,h-200,q-80 250w,
-                     ${bag}?tr=w-500,h-400,q-80 500w,
-                     ${bag}?tr=w-1000,h-800,q-80 1000w`}
-            sizes="(max-width: 768px) 100vw, 50vw"
+            src={bag}
             alt="bag"
             loading="lazy"
             className="order-2 justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-full lg:z-10 lg:order-last lg:col-span-4 lg:mr-[7rem] lg:mt-[-4rem] lg:h-[200px] lg:w-[250px]"
           />
           <img
-            srcSet={`${card}?tr=w-250,h-200,q-80 250w,
-                     ${card}?tr=w-500,h-400,q-80 500w,
-                     ${card}?tr=w-1000,h-800,q-80 1000w`}
-            sizes="(max-width: 768px) 100vw, 50vw"
+            src={card}
             alt="card"
             loading="lazy"
             className="justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-full lg:z-10 lg:col-span-4 lg:mr-[7rem] lg:h-[200px] lg:w-[250px] lg:translate-x-0"
           />
           <img
-            srcSet={`${shoe}?tr=w-250,h-200,q-80 250w,
-                     ${shoe}?tr=w-500,h-400,q-80 500w,
-                     ${shoe}?tr=w-1000,h-800,q-80 1000w`}
-            sizes="(max-width: 768px) 100vw, 50vw"
+            src={shoe}
             alt="shoe"
             loading="lazy"
             className="order-2 justify-self-center object-cover shadow-custom md:h-[300px] md:w-full md:rounded-[25px] lg:col-span-2 lg:ml-[1rem] lg:mt-[-4rem] lg:h-[322px] lg:w-[380px] lg:rounded-none"
           />
           <img
-            srcSet={`${card2}?tr=w-250,h-200,q-80 250w,
-                     ${card2}?tr=w-500,h-400,q-80 500w,
-                     ${card2}?tr=w-1000,h-800,q-80 1000w`}
-            sizes="(max-width: 768px) 100vw, 50vw"
+            src={card2}
             alt="card2"
             loading="lazy"
             className="mr-10 justify-self-center rounded-[25px] object-cover shadow-custom sm:mr-28 md:mr-0 md:h-[300px] md:w-full lg:z-10 lg:col-span-2 lg:mr-[6rem] lg:h-[200px] lg:w-[250px]"

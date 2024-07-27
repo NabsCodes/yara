@@ -1,7 +1,7 @@
 import InfoCard from "./InfoCard";
-// import img1 from "../assets/pexels-sora-shimazaki-5935739.jpg";
-// import img2 from "../assets/pexels-canva-studio-3153204.jpg";
-// import img3 from "../assets/pexels-field-engineer-442161.jpg";
+import img1 from "../assets/pexels-sora-shimazaki-5935739.jpg";
+import img2 from "../assets/pexels-canva-studio-3153204.jpg";
+import img3 from "../assets/pexels-field-engineer-442161.jpg";
 import { motion } from "framer-motion";
 
 const data = [
@@ -9,21 +9,21 @@ const data = [
     title: "All You Need to Start",
     description:
       "Add Woocommerce plugin to any WordPress site and set up a new store in minutes",
-    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-sora-shimazaki-5935739",
+    img: img1,
     footer: "Ecommerce for wordpress",
   },
   {
     title: "Active Community",
     description:
       "WooCommerce is one of the fastest-growing eCommerce communities.",
-    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-canva-studio-3153204",
+    img: img2,
     footer: "Check our forum",
   },
   {
     title: "Ready to Customize",
     description:
       "WooCommerce is one of the fastest-growing eCommerce communities.",
-    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-field-engineer-442161",
+    img: img3,
     footer: "Add Woocommerce plugin",
   },
 ];

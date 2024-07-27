@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
-// import img1 from "../assets/pexels-lisa-fotios-1546329.jpg";
-// import img2 from "../assets/pexels-thirdman-5256523.jpg";
-let img1 =
-  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-lisa-fotios-1546329?tr=w-250,h-200,q-80";
-let img2 =
-  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-thirdman-5256523?tr=w-250,h-200,q-80";
+import img1 from "../assets/pexels-lisa-fotios-1546329.webp";
+import img2 from "../assets/pexels-thirdman-5256523.webp";
 
 function Documentation() {
   return (
