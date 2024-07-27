@@ -64,7 +64,7 @@ function Hero() {
           <img
             src={shoe}
             alt="shoe"
-            loading="lazy"
+            // loading="lazy"
             className="order-2 justify-self-center object-cover shadow-custom md:h-[300px] md:w-full md:rounded-[25px] lg:col-span-2 lg:ml-[1rem] lg:mt-[-4rem] lg:h-[322px] lg:w-[380px] lg:rounded-none"
           />
           <img
