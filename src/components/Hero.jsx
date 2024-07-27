@@ -52,13 +52,13 @@ function Hero() {
           <img
             src={bag}
             alt="bag"
-            loading="lazy"
+            // loading="lazy"
             className="order-2 justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-full lg:z-10 lg:order-last lg:col-span-4 lg:mr-[7rem] lg:mt-[-4rem] lg:h-[200px] lg:w-[250px]"
           />
           <img
             src={card}
             alt="card"
-            loading="lazy"
+            // loading="lazy"
             className="justify-self-center rounded-[25px] object-cover shadow-custom md:h-[300px] md:w-full lg:z-10 lg:col-span-4 lg:mr-[7rem] lg:h-[200px] lg:w-[250px] lg:translate-x-0"
           />
           <img
@@ -70,7 +70,7 @@ function Hero() {
           <img
             src={card2}
             alt="card2"
-            loading="lazy"
+            // loading="lazy"
             className="mr-10 justify-self-center rounded-[25px] object-cover shadow-custom sm:mr-28 md:mr-0 md:h-[300px] md:w-full lg:z-10 lg:col-span-2 lg:mr-[6rem] lg:h-[200px] lg:w-[250px]"
           />
         </div>
