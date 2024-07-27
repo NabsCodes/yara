@@ -1,7 +1,7 @@
 import InfoCard from "./InfoCard";
-import img1 from "../assets/pexels-sora-shimazaki-5935739.jpg";
-import img2 from "../assets/pexels-canva-studio-3153204.jpg";
-import img3 from "../assets/pexels-field-engineer-442161.jpg";
+import img1 from "../assets/pexels-sora-shimazaki-5935739.webp";
+import img2 from "../assets/pexels-canva-studio-3153204.webp";
+import img3 from "../assets/pexels-field-engineer-442161.webp";
 import { motion } from "framer-motion";
 
 const data = [
