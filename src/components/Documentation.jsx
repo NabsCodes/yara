@@ -67,12 +67,12 @@ function Documentation() {
           }}
           className="flex flex-col items-start gap-8 md:flex-row lg:gap-[60px]"
         >
-          <img
+          {/* <img
             src={img1}
             alt="img1"
             className="top-10 h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow lg:h-[500px] lg:w-[400px]"
             loading="lazy"
-          />
+          /> */}
           <div className="my-auto flex flex-col justify-center gap-5">
             <h1 className="text-2xl font-bold leading-[38px] text-white lg:text-[30px]">
               Develop Without Limits
@@ -109,12 +109,12 @@ function Documentation() {
           }}
           className="mt-10 flex flex-col items-end gap-8 sm:mt-0 md:flex-row md:items-start lg:gap-[60px]"
         >
-          <img
+          {/* <img
             src={img2}
             alt="img2"
             loading="lazy"
             className="h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow md:order-2 md:mt-[-20px] lg:mt-[-40px] lg:h-[500px] lg:w-[400px]"
-          />
+          /> */}
           <div className="my-auto flex flex-col justify-center gap-5">
             <h1 className="text-right text-2xl font-bold leading-[38px] text-white md:text-left lg:text-[30px]">
               Know our Global Community
