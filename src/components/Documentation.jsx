@@ -1,41 +1,45 @@
 import { motion } from "framer-motion";
-import img1 from "../assets/pexels-lisa-fotios-1546329.jpg";
-import img2 from "../assets/pexels-thirdman-5256523.jpg";
+// import img1 from "../assets/pexels-lisa-fotios-1546329.jpg";
+// import img2 from "../assets/pexels-thirdman-5256523.jpg";
+let img1 =
+  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-lisa-fotios-1546329?tr=w-250,h-200,q-80";
+let img2 =
+  "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-thirdman-5256523?tr=w-250,h-200,q-80";
 
 function Documentation() {
   return (
     <motion.section
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{
-        opacity: 1,
-        y: 0,
-        transition: {
-          duration: 0.8,
-          delay: 0.4,
-          ease: [0.44, 0, 0, 1],
-        },
-      }}
-      viewport={{
-        amount: "some",
-        once: true,
-      }}
-      className="lg:px-38 relative z-20 mx-auto mt-[70px] w-full bg-[#7854F7] p-4 md:p-14 lg:mt-[122px] xl:bg-transparent xl:px-44"
+      // initial={{ opacity: 0, y: 30 }}
+      // whileInView={{
+      //   opacity: 1,
+      //   y: 0,
+      //   transition: {
+      //     duration: 0.8,
+      //     delay: 0.4,
+      //     ease: [0.44, 0, 0, 1],
+      //   },
+      // }}
+      // viewport={{
+      //   amount: "some",
+      //   once: true,
+      // }}
+      className="lg:px-38 relative z-20 mx-auto mt-[70px] w-full bg-[#7854F7] p-4 lg:mt-[122px] xl:bg-transparent xl:px-44"
     >
       <motion.svg
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-          transition: {
-            duration: 0.8,
-            delay: 0.4,
-            ease: [0.44, 0, 0, 1],
-          },
-        }}
-        viewport={{
-          amount: "some",
-          once: true,
-        }}
+        // initial={{ opacity: 0, y: 30 }}
+        // whileInView={{
+        //   opacity: 1,
+        //   y: 0,
+        //   transition: {
+        //     duration: 0.8,
+        //     delay: 0.4,
+        //     ease: [0.44, 0, 0, 1],
+        //   },
+        // }}
+        // viewport={{
+        //   amount: "some",
+        //   once: true,
+        // }}
         className="absolute inset-0 z-[-1] hidden xl:block"
         viewBox="0 0 1450 1090" // Defines the aspect ratio and scaling behavior
         fill="none"
@@ -51,28 +55,28 @@ function Documentation() {
 
       <div className="z-10 mx-auto flex max-w-[1240px] flex-col items-center justify-center gap-[-50px]">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-            transition: {
-              duration: 0.8,
-              delay: 0.6,
-              ease: [0.44, 0, 0, 1],
-            },
-          }}
-          viewport={{
-            amount: "some",
-            once: true,
-          }}
+          // initial={{ opacity: 0, y: 30 }}
+          // whileInView={{
+          //   opacity: 1,
+          //   y: 0,
+          //   transition: {
+          //     duration: 0.8,
+          //     delay: 0.6,
+          //     ease: [0.44, 0, 0, 1],
+          //   },
+          // }}
+          // viewport={{
+          //   amount: "some",
+          //   once: true,
+          // }}
           className="flex flex-col items-start gap-8 md:flex-row lg:gap-[60px]"
         >
-          {/* <img
+          <img
             src={img1}
             alt="img1"
             className="top-10 h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow lg:h-[500px] lg:w-[400px]"
             loading="lazy"
-          /> */}
+          />
           <div className="my-auto flex flex-col justify-center gap-5">
             <h1 className="text-2xl font-bold leading-[38px] text-white lg:text-[30px]">
               Develop Without Limits
@@ -93,28 +97,28 @@ function Documentation() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-            transition: {
-              duration: 0.8,
-              delay: 0.8,
-              ease: [0.44, 0, 0, 1],
-            },
-          }}
-          viewport={{
-            amount: "some",
-            once: true,
-          }}
+          // initial={{ opacity: 0, y: 30 }}
+          // whileInView={{
+          //   opacity: 1,
+          //   y: 0,
+          //   transition: {
+          //     duration: 0.8,
+          //     delay: 0.8,
+          //     ease: [0.44, 0, 0, 1],
+          //   },
+          // }}
+          // viewport={{
+          //   amount: "some",
+          //   once: true,
+          // }}
           className="mt-10 flex flex-col items-end gap-8 sm:mt-0 md:flex-row md:items-start lg:gap-[60px]"
         >
-          {/* <img
+          <img
             src={img2}
             alt="img2"
             loading="lazy"
             className="h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow md:order-2 md:mt-[-20px] lg:mt-[-40px] lg:h-[500px] lg:w-[400px]"
-          /> */}
+          />
           <div className="my-auto flex flex-col justify-center gap-5">
             <h1 className="text-right text-2xl font-bold leading-[38px] text-white md:text-left lg:text-[30px]">
               Know our Global Community

@@ -24,7 +24,7 @@ function Footer() {
         amount: "some",
         once: true,
       }}
-      className="mt-10 w-full bg-[#7854F7] px-4 py-5 text-white lg:mt-[90px] lg:py-20"
+      className="mt-10 w-full bg-[#7854F7] py-5 text-white lg:mt-[90px] lg:py-20"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -41,7 +41,7 @@ function Footer() {
           amount: "some",
           once: true,
         }}
-        className="mx-auto grid max-w-[1240px] grid-cols-1 justify-items-center gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-3 lg:gap-y-20"
+        className="mx-auto grid max-w-[1240px] grid-cols-1 justify-items-center gap-x-5 gap-y-10 px-4 md:grid-cols-3 lg:grid-cols-3 lg:gap-y-20"
       >
         <div>
           <h2 className="mb-4 text-xl font-bold">YARA</h2>
@@ -65,6 +65,7 @@ function Footer() {
               href="https://www.facebook.com/hassanhauda"
               target="_blank"
               rel="noreferrer"
+              aria-label="Facebook"
               className="hover:text-gray-300"
             >
               <FaFacebookF size={30} />
@@ -73,6 +74,7 @@ function Footer() {
               href="https://twitter.com/nabeelhassan_"
               target="_blank"
               rel="noreferrer"
+              aria-label="Twitter"
               className="hover:text-gray-300"
             >
               <FaXTwitter size={30} />
@@ -81,6 +83,7 @@ function Footer() {
               href="https://www.instagram.com/_nabeelhassan"
               target="_blank"
               rel="noreferrer"
+              aria-label="Instagram"
               className="hover:text-gray-300"
             >
               <FaInstagram size={30} />
@@ -89,6 +92,7 @@ function Footer() {
               href="https://github.com/NabsCodes"
               target="_blank"
               rel="noreferrer"
+              aria-label="Github"
               className="hover:text-gray-300"
             >
               <FaGithub size={30} />
@@ -112,7 +116,7 @@ function Footer() {
           amount: "some",
           once: true,
         }}
-        className="mt-12 text-center text-sm font-normal text-gray-200"
+        className="mx-auto mt-12 max-w-[1240px] text-center text-sm font-normal text-gray-200"
       >
         © {new Date().getFullYear()} Yara. All rights reserved | Designed by
         <a
