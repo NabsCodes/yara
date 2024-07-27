@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 function InfoCard({ title, description, img, footer, className }) {
+  const imgBaseURL = img.split("?")[0];
   return (
     <motion.div
       // initial={{ opacity: 0, y: 30 }}
@@ -20,7 +21,11 @@ function InfoCard({ title, description, img, footer, className }) {
       className={`flex flex-col items-start justify-center gap-2.5 md:gap-5 ${className}`}
     >
       <img
-        src={img}
+        srcSet={`${imgBaseURL}?tr=w-250,h-200,q-80 250w,
+                 ${imgBaseURL}?tr=w-500,h-400,q-80 500w,
+                 ${imgBaseURL}?tr=w-1000,h-800,q-80 1000w`}
+        sizes="(max-width: 768px) 100vw, (min-width: 769px) and (max-width: 1024px) 50vw, 33vw"
+        src={`${imgBaseURL}?tr=w-250,h-200,q-80`} // Default image
         alt="hero"
         loading="lazy"
         className="mt-6 h-[250px] w-full rounded-[20px] object-cover sm:h-[300px] md:h-[300px] lg:h-[280px] lg:w-[400px]"

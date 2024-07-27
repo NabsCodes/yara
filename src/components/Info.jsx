@@ -9,21 +9,21 @@ const data = [
     title: "All You Need to Start",
     description:
       "Add Woocommerce plugin to any WordPress site and set up a new store in minutes",
-    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-sora-shimazaki-5935739?tr=w-250,h-200,q-80",
+    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-sora-shimazaki-5935739",
     footer: "Ecommerce for wordpress",
   },
   {
     title: "Active Community",
     description:
       "WooCommerce is one of the fastest-growing eCommerce communities.",
-    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-canva-studio-3153204?tr=w-250,h-200,q-80",
+    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-canva-studio-3153204",
     footer: "Check our forum",
   },
   {
     title: "Ready to Customize",
     description:
       "WooCommerce is one of the fastest-growing eCommerce communities.",
-    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-field-engineer-442161?tr=w-250,h-200,q-80",
+    img: "https://res.cloudinary.com/dy55vopm2/image/upload/f_auto,q_auto/v1/Yara%20Design/pexels-field-engineer-442161",
     footer: "Add Woocommerce plugin",
   },
 ];
