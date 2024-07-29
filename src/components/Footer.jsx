@@ -116,7 +116,7 @@ function Footer() {
           amount: "some",
           once: true,
         }}
-        className="mx-auto mt-12 max-w-[1240px] text-center text-sm font-normal text-gray-200"
+        className="mx-auto mt-12 max-w-[1240px] px-4 text-center text-sm font-normal text-gray-200"
       >
         © {new Date().getFullYear()} Yara. All rights reserved | Designed by
         <a

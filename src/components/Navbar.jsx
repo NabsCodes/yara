@@ -17,20 +17,20 @@ const Navbar = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-[#dbf0ff] bg-opacity-[0.9] transition-all duration-300 ease-in-out dark:bg-[#2a3d5f] dark:bg-opacity-[0.9]">
       <motion.nav
-        // initial={{ opacity: 0, y: 30 }}
-        // whileInView={{
-        //   opacity: 1,
-        //   y: 0,
-        //   transition: {
-        //     duration: 0.8,
-        //     delay: 0.4,
-        //     ease: [0.44, 0, 0, 1],
-        //   },
-        // }}
-        // viewport={{
-        //   amount: "some",
-        //   once: true,
-        // }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 0.8,
+            delay: 0.4,
+            ease: [0.44, 0, 0, 1],
+          },
+        }}
+        viewport={{
+          amount: "some",
+          once: true,
+        }}
         className="mx-auto flex h-24 max-w-[1240px] items-center justify-between px-4 py-5"
       >
         <h1 className="text-3xl font-bold text-[#7854F7]">YARA</h1>

@@ -32,20 +32,20 @@ function Info() {
   return (
     <section className="mx-auto max-w-[1240px] px-4">
       <motion.h1
-        // initial={{ opacity: 0, y: 30 }}
-        // whileInView={{
-        //   opacity: 1,
-        //   y: 0,
-        //   transition: {
-        //     duration: 0.8,
-        //     delay: 0.4,
-        //     ease: [0.44, 0, 0, 1],
-        //   },
-        // }}
-        // viewport={{
-        //   amount: "some",
-        //   once: true,
-        // }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 0.8,
+            delay: 0.4,
+            ease: [0.44, 0, 0, 1],
+          },
+        }}
+        viewport={{
+          amount: "some",
+          once: true,
+        }}
         className="mx-auto mt-5 text-center text-[18px] font-bold leading-[56px] text-[#444444] dark:text-gray-200 sm:text-[22px] md:mt-10 md:text-[24px] lg:mt-0 lg:max-w-[500px] lg:text-[48px]"
       >
         Your eCommerce made simple

@@ -5,37 +5,37 @@ import img2 from "../assets/pexels-thirdman-5256523.webp";
 function Documentation() {
   return (
     <motion.section
-      // initial={{ opacity: 0, y: 30 }}
-      // whileInView={{
-      //   opacity: 1,
-      //   y: 0,
-      //   transition: {
-      //     duration: 0.8,
-      //     delay: 0.4,
-      //     ease: [0.44, 0, 0, 1],
-      //   },
-      // }}
-      // viewport={{
-      //   amount: "some",
-      //   once: true,
-      // }}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+        transition: {
+          duration: 0.8,
+          delay: 0.4,
+          ease: [0.44, 0, 0, 1],
+        },
+      }}
+      viewport={{
+        amount: "some",
+        once: true,
+      }}
       className="lg:px-38 relative z-20 mx-auto mt-[70px] w-full bg-[#7854F7] p-4 lg:mt-[122px] xl:bg-transparent xl:px-44"
     >
       <motion.svg
-        // initial={{ opacity: 0, y: 30 }}
-        // whileInView={{
-        //   opacity: 1,
-        //   y: 0,
-        //   transition: {
-        //     duration: 0.8,
-        //     delay: 0.4,
-        //     ease: [0.44, 0, 0, 1],
-        //   },
-        // }}
-        // viewport={{
-        //   amount: "some",
-        //   once: true,
-        // }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 0.8,
+            delay: 0.4,
+            ease: [0.44, 0, 0, 1],
+          },
+        }}
+        viewport={{
+          amount: "some",
+          once: true,
+        }}
         className="absolute inset-0 z-[-1] hidden xl:block"
         viewBox="0 0 1450 1090" // Defines the aspect ratio and scaling behavior
         fill="none"
@@ -51,20 +51,20 @@ function Documentation() {
 
       <div className="z-10 mx-auto flex max-w-[1240px] flex-col items-center justify-center gap-[-50px]">
         <motion.div
-          // initial={{ opacity: 0, y: 30 }}
-          // whileInView={{
-          //   opacity: 1,
-          //   y: 0,
-          //   transition: {
-          //     duration: 0.8,
-          //     delay: 0.6,
-          //     ease: [0.44, 0, 0, 1],
-          //   },
-          // }}
-          // viewport={{
-          //   amount: "some",
-          //   once: true,
-          // }}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 0.8,
+              delay: 0.6,
+              ease: [0.44, 0, 0, 1],
+            },
+          }}
+          viewport={{
+            amount: "some",
+            once: true,
+          }}
           className="flex flex-col items-start gap-8 md:flex-row lg:gap-[60px]"
         >
           <img
@@ -93,26 +93,26 @@ function Documentation() {
           </div>
         </motion.div>
         <motion.div
-          // initial={{ opacity: 0, y: 30 }}
-          // whileInView={{
-          //   opacity: 1,
-          //   y: 0,
-          //   transition: {
-          //     duration: 0.8,
-          //     delay: 0.8,
-          //     ease: [0.44, 0, 0, 1],
-          //   },
-          // }}
-          // viewport={{
-          //   amount: "some",
-          //   once: true,
-          // }}
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 0.8,
+              delay: 0.8,
+              ease: [0.44, 0, 0, 1],
+            },
+          }}
+          viewport={{
+            amount: "some",
+            once: true,
+          }}
           className="mt-10 flex flex-col items-end gap-8 sm:mt-0 md:flex-row md:items-start lg:gap-[60px]"
         >
           <img
             src={img2}
             alt="img2"
-            // loading="lazy"
+            loading="lazy"
             className="h-[400px] w-[300px] rounded-[20px] object-cover shadow-shadow md:order-2 md:mt-[-20px] lg:mt-[-40px] lg:h-[500px] lg:w-[400px]"
           />
           <div className="my-auto flex flex-col justify-center gap-5">

@@ -9,22 +9,22 @@ function Hero() {
   return (
     <section className="mx-auto max-w-[1240px] px-4 pt-24 lg:mb-[145px]">
       <motion.div
-        // initial={{ opacity: 0, y: 30 }}
-        // whileInView={{
-        //   opacity: 1,
-        //   y: 0,
-        //   transition: {
-        //     type: "spring",
-        //     damping: 100,
-        //     stiffness: 300,
-        //     mass: 1,
-        //     delay: 0.5,
-        //   },
-        // }}
-        // viewport={{
-        //   amount: "some",
-        //   once: true,
-        // }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: {
+            type: "spring",
+            damping: 100,
+            stiffness: 300,
+            mass: 1,
+            delay: 0.5,
+          },
+        }}
+        viewport={{
+          amount: "some",
+          once: true,
+        }}
         className="flex flex-col gap-6 lg:flex-row lg:gap-16"
       >
         <div className="mt-3 flex flex-col gap-3 md:gap-[30px] lg:mt-[150px] lg:max-w-[502px]">
